@@ -5,7 +5,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "vitest"
+    "test": "vitest",
+    "test-beginner": "vitest src/beginner",
+    "test-intermediate": "vitest src/intermediate"
   },
   "author": "",
   "license": "ISC",
