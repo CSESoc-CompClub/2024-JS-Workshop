@@ -7,6 +7,14 @@
   "scripts": {
     "test": "vitest",
     "test-beginner": "vitest src/beginner",
+	"test-beginner-sumN": "vitest src/beginner/for/sumN.test.js",
+	"test-beginner-sumNM": "vitest src/beginner/for/sumNM.test.js",
+	"test-beginner-skipSum": "vitest src/beginner/for/skipSum.test.js",
+	"test-beginner-average": "vitest src/beginner/for-of/average.test.js",
+	"test-beginner-mapEven": "vitest src/beginner/for-of/mapEven.test.js",
+	"test-beginner-stepsToZero": "vitest src/beginner/while/stepsToZero.test.js",
+	"test-beginner-firstBigger": "vitest src/beginner/while/firstBigger.test.js",
+	"test-beginner-collatzSteps": "vitest src/beginner/while/collatzSteps.test.js",
     "test-intermediate": "vitest src/intermediate"
   },
   "author": "",
