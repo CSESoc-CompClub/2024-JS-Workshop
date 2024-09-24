@@ -16,3 +16,8 @@ test("Array with a goose at the end of it", () => {
 	const array = [ "duck", "duck", "duck", "duck", "duck", "goose" ];
 	expect(duckDuckGoose(array)).toBe("5");
 });
+
+test("No goose!", () => {
+	const array = [ "duck", "duck", "duck", "duck", "duck", "duck" ];
+	expect(duckDuckGoose(array)).toBe(-1);
+});
