@@ -24,33 +24,20 @@ export function hauntedPhrase() {
 }
 
 // arithmetic operators
-// using x and y, return the specified value using an operator (only one!)
 
-// return 50
-export function mummyMultiplication() {
-  let x = 5;
-  let y = 10;
+export function mummyMultiplication(x, y) {
   return x * y;
 }
 
-// return 5
-export function deviousDivision() {
-  let x = 25;
-  let y = 5;
+export function deviousDivision(x, y) {
   return x / y;
 }
 
-// return 2
-export function rusticRemainder() {
-  let x = 17;
-  let y = 5;
+export function rusticRemainder(x, y) {
   return x % y;
 }
 
-// return 64
-export function evilExponent() {
-  let x = 4;
-  let y = 3;
+export function evilExponent(x, y) {
   return x ** y;
 }
 
@@ -63,31 +50,19 @@ export function potionOfPrecedence() {
 }
 
 // return "halloween!"
-export function creepyAdditon() {
-  let x = "hallo"
-  let y = "ween!"
+export function creepyAdditon(x, y) {
   return x + y;
 }
 
 // return "my fave number is 13"
-export function evenCreepierAdditon() {
-  let x = "my fave number is "
-  let y = 13
+export function evenCreepierAdditon(x, y) {
   return x + y;
 }
 
-// return false
-export function spellbindingAnd() {
-  let x = false;
-  let y = false;
-
+export function spellbindingAnd(x, y) {
   return x && y;
 }
 
-// return true
-export function ghostlyOr() {
-  let x = true;
-  let y = false;
-
+export function ghostlyOr(x, y) {
   return x || y;
 }
