@@ -15,6 +15,8 @@
 	"test-beginner-stepsToZero": "vitest src/beginner/while/stepsToZero.test.js",
 	"test-beginner-firstBigger": "vitest src/beginner/while/firstBigger.test.js",
 	"test-beginner-collatzSteps": "vitest src/beginner/while/collatzSteps.test.js",
+    "test-beginner-typeof": "vitest src/beginner/typeOf.test.js",
+    "test-beginner-numbermethods": "vitest src/beginner/numberMethods.test.js",
     "test-intermediate": "vitest src/intermediate"
   },
   "author": "",
