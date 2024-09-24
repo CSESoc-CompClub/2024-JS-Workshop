@@ -15,6 +15,12 @@
 	"test-beginner-stepsToZero": "vitest src/beginner/while/stepsToZero.test.js",
 	"test-beginner-firstBigger": "vitest src/beginner/while/firstBigger.test.js",
 	"test-beginner-collatzSteps": "vitest src/beginner/while/collatzSteps.test.js",
+	"test-beginner-duckDuckGoose": "vitest src/beginner/break/duckDuckGoose.test.js",
+	"test-beginner-fibonacci": "vitest src/beginner/functions/fibonacci.test.js",
+	"test-beginner-funcA": "vitest src/beginner/functions/funcA.test.js",
+	"test-beginner-funcB": "vitest src/beginner/functions/funcB.test.js",
+	"test-beginner-compositeFunc": "vitest src/beginner/functions/compositeFunc.test.js",
+	"test-beginner-collatzPt2": "vitest src/beginner/functions/collatzSteps.test.js",
     "test-beginner-typeof": "vitest src/beginner/typeOf.test.js",
     "test-beginner-numbermethods": "vitest src/beginner/numberMethods.test.js",
     "test-intermediate": "vitest src/intermediate"
