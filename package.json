@@ -21,6 +21,7 @@
 	"test-beginner-funcB": "vitest src/beginner/functions/funcB.test.js",
 	"test-beginner-compositeFunc": "vitest src/beginner/functions/compositeFunc.test.js",
 	"test-beginner-collatzPt2": "vitest src/beginner/functions/collatzSteps.test.js",
+	"test-beginner-duckDuckGoose2": "vitest src/beginner/for-in/duckDuckGoose.test.js",
     "test-beginner-typeof": "vitest src/beginner/typeOf.test.js",
     "test-beginner-numbermethods": "vitest src/beginner/numberMethods.test.js",
     "test-intermediate": "vitest src/intermediate"
