@@ -24,7 +24,8 @@
     "test-beginnier-stringMethod": "vitest src/beginner/stringMethod.test.js",
     "test-beginnier-stringMethod2": "vitest src/beginner/stringMethod2.test.js",
     "test-beginnier-stringTemplate": "vitest src/beginner/stringTemplate.test.js",
-    "test-intermediate": "vitest src/intermediate"
+    "test-intermediate": "vitest src/intermediate",
+    "test-intermediate-bloodBank": "vitest src/intermediate/bloodBank.js"
   },
   "author": "",
   "license": "ISC",
