@@ -66,3 +66,29 @@ export function spellbindingAnd(x, y) {
 export function ghostlyOr(x, y) {
   return x || y;
 }
+
+// Round something to the nearest whole number
+export function monsterRound(monsterCount) {
+  return Math.round(monsterCount);
+}
+
+// Return a random number between 0 and max
+export function vampireRandom(maxVampires) {
+  if (maxVampires <= 0) return 0;
+  return Math.floor(Math.random() * (maxVampires + 1));
+}
+
+// Convert to uppercase
+export function spookyUppercase(scream) {
+  return scream.toUpperCase();
+}
+
+// Find if a string contains another string
+export function witchHunt(haystack, needle) {
+  return haystack.includes(needle);
+}
+
+// Return a spooky message with a variable
+export function spookyMessage(creature) {
+  return `Run! There's a ${creature} near you!`;
+}

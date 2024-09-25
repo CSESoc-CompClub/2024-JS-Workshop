@@ -19,6 +19,11 @@
     "test-beginnier-addition2": "vitest src/beginner/addition2.test.js",
     "test-beginnier-and": "vitest src/beginner/and.test.js",
     "test-beginnier-or": "vitest src/beginner/or.test.js",
+    "test-beginnier-round": "vitest src/beginner/round.test.js",
+    "test-beginnier-random": "vitest src/beginner/random.test.js",
+    "test-beginnier-stringMethod": "vitest src/beginner/stringMethod.test.js",
+    "test-beginnier-stringMethod2": "vitest src/beginner/stringMethod2.test.js",
+    "test-beginnier-stringTemplate": "vitest src/beginner/stringTemplate.test.js",
     "test-intermediate": "vitest src/intermediate"
   },
   "author": "",
