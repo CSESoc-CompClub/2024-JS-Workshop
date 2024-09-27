@@ -6,13 +6,13 @@
   "main": "index.js",
   "scripts": {
     "test": "vitest",
-    "test-beginner": "vitest src/beginner",
-    "test-beginner-1": "vitest src/beginner/part_1",
-    "test-beginner-2": "vitest src/beginner/part_2",
-    "test-beginner-3": "vitest src/beginner/part_3",
-    "test-beginner-4": "vitest src/beginner/part_4",
-
-    "test-intermediate": "vitest src/intermediate"
+    "test-beginner": "vitest src/beginner/test",
+    "test-beginner-1": "vitest src/beginner/test/part1",
+    "test-beginner-2": "vitest src/beginner/test/part2",
+    "test-beginner-3": "vitest src/beginner/test/part3",
+    "test-beginner-4": "vitest src/beginner/test/part4",
+    "test-intermediate": "vitest src/intermediate/test",
+    "test-advanced": "vitest src/advanced"
   },
   "author": "",
   "license": "ISC",
