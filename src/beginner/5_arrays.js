@@ -10,7 +10,7 @@ Written On: <DATE-HERE>
 */
 // ****************************************************************************
 // PART 5: [ ARRAYS ] 
-// run the tests with 'npm test beginner-5'
+// run the tests with 'npm test part5'
 // ****************************************************************************
 
 // Tom made a list of all the creatures he saw.

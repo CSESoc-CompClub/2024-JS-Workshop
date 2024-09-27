@@ -10,7 +10,7 @@ Written On: <DATE-HERE>
 */
 // ****************************************************************************
 // PART 2: [ NUMBERS AND OPERATORS ] 
-// run the tests with 'npm test beginner-2'
+// run the tests with 'npm test part2'
 // ****************************************************************************
 
 // Return the sum of x and y

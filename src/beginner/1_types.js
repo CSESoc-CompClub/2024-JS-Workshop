@@ -10,7 +10,7 @@ Written On: <DATE-HERE>
 */
 // ****************************************************************************
 // PART 1: [TYPES AND NUMBER METHODS] 
-// run the tests with 'npm test beginner-1'
+// run the tests with 'npm test part2'
 // ****************************************************************************
 
 // implement a method which returns the data type of a variable

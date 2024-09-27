@@ -10,7 +10,7 @@ Written On: <DATE-HERE>
 */
 // ****************************************************************************
 // PART 4: [ CONDITIONALS ] 
-// run the tests with 'npm test beginner-4'
+// run the tests with 'npm test part4'
 // ****************************************************************************
 
 // Function: Which candy has the cheapest price? Return the cost of that candy.

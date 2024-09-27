@@ -10,7 +10,7 @@ Written On: <DATE-HERE>
 */
 // ****************************************************************************
 // PART 3: [ STRINGS ] 
-// run the tests with 'npm test beginner-3'
+// run the tests with 'npm test part3'
 // ****************************************************************************
 
 // Convert to uppercase

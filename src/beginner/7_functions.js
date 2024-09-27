@@ -10,7 +10,7 @@ Written On: <DATE-HERE>
 */
 // ****************************************************************************
 // PART 7: [ FUNCTIONS ] 
-// run the tests with 'npm test beginner-7'
+// run the tests with 'npm test part7'
 // ****************************************************************************
 // Write a function called funcA that, given a number, returns the number multiplied by 3, plus 1.
 export function funcA(n) {

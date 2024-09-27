@@ -10,7 +10,7 @@ Written On: <DATE-HERE>
 */
 // ****************************************************************************
 // PART 6: [ LOOPS ] 
-// run the tests with 'npm test beginner-6'
+// run the tests with 'npm test part6'
 // ****************************************************************************
 // WHILE LOOPS ----------------------------------------------------------------
 // Starting from n, keep decreasing by k until we reach or are lower than 0.
