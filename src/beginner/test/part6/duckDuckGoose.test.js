@@ -1,5 +1,5 @@
 import { expect, test } from "vitest";
-import { duckDuckGoose } from "./duckDuckGoose.js";
+import { duckDuckGoose } from "../../6_loops.js";
 
 test("Example array with a goose in the middle of it", () => {
 	const array = [ "duck", "duck", "duck", "goose", "duck", "duck" ];

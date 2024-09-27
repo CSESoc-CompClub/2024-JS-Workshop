@@ -1,5 +1,5 @@
 import { expect, test } from "vitest";
-import { compositeFunc } from "./collatzPt2.js";
+import { compositeFunc } from "../../7_functions.js";
 
 test("compositeFunc(0)", () => {
   expect(compositeFunc(0)).toBe(0);

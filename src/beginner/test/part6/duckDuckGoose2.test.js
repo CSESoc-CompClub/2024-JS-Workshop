@@ -1,9 +1,9 @@
 import { expect, test } from "vitest";
-import { duckDuckGoose } from "./duckDuckGoose.js";
+import { duckDuckGoose2 } from "../../6_loops.js";
 
 test("Example array with a goose in the middle of it", () => {
 	const array = [ { name: "A", type: "duck" }, { name: "B", type: "duck" }, { name: "C", type: "duck" }, { name: "D", type: "goose" }, { name: "E", type: "duck" }, { name: "F", type: "duck" } ];
-	const newArray = duckDuckGoose(array);
+	const newArray = duckDuckGoose2(array);
 	expect(newArray).toContain("A");
 	expect(newArray).toContain("B");
 	expect(newArray).toContain("C");
@@ -14,7 +14,7 @@ test("Example array with a goose in the middle of it", () => {
 
 test("Array with a goose at the front of it", () => {
 	const array = [ { name: "A", type: "goose" }, { name: "B", type: "duck" }, { name: "C", type: "duck" }, { name: "D", type: "duck" }, { name: "E", type: "duck" }, { name: "F", type: "duck" } ];
-	const newArray = duckDuckGoose(array);
+	const newArray = duckDuckGoose2(array);
 	expect(newArray).not.toContain("A");
 	expect(newArray).not.toContain("B");
 	expect(newArray).not.toContain("C");
@@ -25,7 +25,7 @@ test("Array with a goose at the front of it", () => {
 
 test("Array with a goose at the end of it", () => {
 	const array = [ { name: "A", type: "duck" }, { name: "B", type: "duck" }, { name: "C", type: "duck" }, { name: "D", type: "duck" }, { name: "E", type: "duck" }, { name: "F", type: "goose" } ];
-	const newArray = duckDuckGoose(array);
+	const newArray = duckDuckGoose2(array);
 	expect(newArray).toContain("A");
 	expect(newArray).toContain("B");
 	expect(newArray).toContain("C");

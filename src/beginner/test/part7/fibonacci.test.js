@@ -1,5 +1,5 @@
 import { expect, test } from "vitest";
-import { fibonacci } from "./fibonacci.js";
+import { fibonacci } from "../../7_functions.js";
 
 test("fibonacci(1)", () => {
   expect(fibonacci(1)).toBe(1);
