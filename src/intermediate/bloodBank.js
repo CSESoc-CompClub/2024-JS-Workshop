@@ -10,6 +10,7 @@ Written On: <DATE-HERE>
 */
 // ****************************************************************************
 // INTERMEDIATE 2: BLOODBANK (classes)
+// run the tests with 'npm test bloodbank'
 // ****************************************************************************
 
 export class BloodBank {

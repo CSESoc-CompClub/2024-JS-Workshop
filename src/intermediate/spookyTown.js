@@ -10,6 +10,7 @@ Written On: <DATE-HERE>
 */
 // ****************************************************************************
 // INTERMEDIATE 1: SPOOKY TOWN (objects)
+// run the tests with 'npm test spookytown'
 // ****************************************************************************
 /*
 Examples: 

@@ -15,15 +15,15 @@ Written On: <DATE-HERE>
 
 // Convert to uppercase
 export function spookyScream(message) {
-    return message.toUpperCase();
+  // TODO: complete me!
 }
   
 // Find if a string contains another string
 export function witchHunt(haystack, needle) {
-  return haystack.includes(needle);
+  // TODO: complete me!
 }
 
 // Return a spooky message with a variable
 export function spookyMessage(creature) {
-  return `Run! There's a ${creature} near you!`;
+  // TODO: complete me!
 }
