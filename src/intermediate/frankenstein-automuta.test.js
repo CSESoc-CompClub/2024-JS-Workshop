@@ -1,5 +1,5 @@
 import { vi, describe, beforeEach, test, toHaveBeenLastCalledWith, expect } from "vitest";
-import { automuta } from "./intermediate.js";
+import { automuta } from "./frankenstein-automuta.js";
 
 const logSpy  = vi.spyOn(console, 'log');
 
