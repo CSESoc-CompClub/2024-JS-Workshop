@@ -1,4 +1,4 @@
-export function design-printer(designs_list) {
+export function design_printer(designs_list) {
 	
 
 }
