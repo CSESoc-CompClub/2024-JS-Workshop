@@ -17,6 +17,13 @@
     "test-spookytown": "vitest src/intermediate/test/spookyTown.test.js",
     "test-bloodbank": "vitest src/intermediate/test/bloodBank.test.js",
 
+    "test-transbugvania-I": "vitest src/intermediate/test/transbugvania-I.test.js",
+    "test-transbugvania-II": "vitest src/intermediate/test/transbugvania-II.test.js",
+    "test-autmoa": "vitest src/intermediate/test/frankenstein-automuta.test.js",
+
+    "test-design-printer": "vitest src/intermediate/test/design-printer.test.js",
+    "test-halloween-party": "vitest src/intermediate/test/halloween-party.test.js",
+
     "test-advanced": "vitest src/advanced"
   },
   "author": "",
