@@ -1,5 +1,5 @@
 import { expect, test, describe } from "vitest";
-import { typeOf } from "./beginner.js";
+import { typeOf } from "../../beginner.js";
 
 describe("type of Number", () => {
 	test("integer number", () => {

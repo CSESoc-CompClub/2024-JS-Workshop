@@ -1,5 +1,5 @@
 import { expect, test } from "vitest";
-import { candyCost } from "./beginner.js";
+import { candyCost } from "../../beginner.js";
 
 test("comparisons", () => {
   let x = 5;

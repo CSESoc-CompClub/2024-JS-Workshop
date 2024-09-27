@@ -1,6 +1,16 @@
-export function sum(a, b) {
-  return a + b;
-}
+/*
+#************************************#
+#   COMPCLUB Spring Workshops 2024   #
+#    Introduction to Javascript      #
+#************************************#
+
+By: <YOUR-NAME-HERE>
+Written On: <DATE-HERE>
+
+*/
+// ****************************************************************************
+// PART 1: [TYPES AND NUMBER METHODS] 
+// ****************************************************************************
 
 // implement a method which returns the data type of a variable
 export function typeOf(pumpkin) {
@@ -8,55 +18,57 @@ export function typeOf(pumpkin) {
 }
 
 // implement a method which returns a number/array as a string
-export function spookyString(thirteen) {
-  return thirteen.toString();
+export function spookyString(item) {
+  return item.toString();
 }
 
 // implement a method which parses a string and returns a (singular) whole number
 // if there are multiple numbers, returns the first number
-export function ghoulishNumbers(scarecrow) {
-  return parseInt(scarecrow);
+export function ghoulishNumbers(num) {
+  return parseInt(num);
 }
 
-// write a phrase (other than NaN) that returns NaN
+// return the spooky number (hint: not a number)
 export function hauntedPhrase() {
   return NaN;
 }
 
-// arithmetic operators
 
+// ****************************************************************************
+// PART 2: [OPERATORS] 
+// ****************************************************************************
+
+// Return the sum of x and y
+export function creepyAdditon(x, y) {
+  return x + y;
+}
+
+// Return the product of x and y
 export function mummyMultiplication(x, y) {
   return x * y;
 }
 
+// Return the quotient of x and y
 export function deviousDivision(x, y) {
   return x / y;
 }
 
+// Return the remainder from dividing x by y
 export function rusticRemainder(x, y) {
   return x % y;
 }
 
+// Return the result of x to the power of y
 export function evilExponent(x, y) {
   return x ** y;
 }
 
-// return 350 using only 100, 50, 3, +, *
+// return 350 using only 100, 50, 3, +, * (and NO brackets!)
 export function potionOfPrecedence() {
   let x = 50;
   let y = 100;
   let z = 3;
   return x + y * z;
-}
-
-// return "halloween!"
-export function creepyAdditon(x, y) {
-  return x + y;
-}
-
-// return "my fave number is 13"
-export function evenCreepierAdditon(x, y) {
-  return x + y;
 }
 
 export function spellbindingAnd(x, y) {
@@ -67,6 +79,10 @@ export function ghostlyOr(x, y) {
   return x || y;
 }
 
+
+// ****************************************************************************
+// PART 3: [ CONTROL STRUCTURES ] 
+// ****************************************************************************
 
 // Function: Which candy has the cheapest price? Return the cost of that candy.
 // Assume variables are numbers and the cost of the two candies are not equal. 
@@ -103,13 +119,21 @@ export function creatureAlarm(creature) {
   }
 }
 
+// ****************************************************************************
+// PART 4: [ ARRAYS ] 
+// ****************************************************************************
+
 // Tom made a list of all the creatures he saw.
 // let creatures = ["ghost", "vampire", "zombie", "poltergeist", "witch", "mummy", "banshee"];  (example)
 
-// Arrays: Methods
-// Fcuntion: How many creatures are there?
+// Function: How many creatures are there?
 export function numberofCreatures(creatures) {
   return creatures.length; 
+}
+
+// Function: What is the nth creature?
+export function nthCreature(creatures, n) {
+  return `The ${n}th creature is ${creatures.at(n)}`
 }
 
 // He found a new creature! 

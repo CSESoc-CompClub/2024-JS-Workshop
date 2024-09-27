@@ -1,5 +1,5 @@
 import { expect, test, describe } from "vitest";
-import { ghoulishNumbers, spookyString } from "./beginner.js";
+import { ghoulishNumbers, spookyString } from "../../beginner.js";
 
 describe("spookyString testing", () => {
   test("number to string", () => {
