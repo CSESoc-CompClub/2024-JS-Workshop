@@ -1,5 +1,5 @@
 import { expect, test } from "vitest";
-import { spookyMessage } from "../../beginner.js";
+import { spookyMessage } from "../../3_strings.js";
 
 test("spookyMessage", () => {
     expect(spookyMessage("vampire")).toBe("Run! There's a vampire near you!");

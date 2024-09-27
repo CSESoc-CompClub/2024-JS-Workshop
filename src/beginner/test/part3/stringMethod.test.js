@@ -1,5 +1,5 @@
 import { expect, test } from "vitest";
-import { witchHunt } from "../../beginner.js";
+import { witchHunt } from "../../3_strings.js";
 
 test("witchHunt", () => {
     expect(witchHunt("There is a witch in the crowd.", "witch")).toBe(true);

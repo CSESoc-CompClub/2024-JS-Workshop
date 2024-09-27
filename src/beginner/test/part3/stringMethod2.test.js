@@ -1,5 +1,5 @@
 import { expect, test } from "vitest";
-import { spookyScream } from "../../beginner.js";
+import { spookyScream } from "../../3_strings.js";
 
 test("spookyUppercase", () => {
     expect(spookyScream("halloween")).toBe("HALLOWEEN");

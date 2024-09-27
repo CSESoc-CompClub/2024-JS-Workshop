@@ -114,7 +114,7 @@ export function spookyMessage(creature) {
 
 
 // ****************************************************************************
-// PART 4: [ CONTROL STRUCTURES ] 
+// PART 4: [ CONDITIONALS ] 
 // ****************************************************************************
 
 // Function: Which candy has the cheapest price? Return the cost of that candy.

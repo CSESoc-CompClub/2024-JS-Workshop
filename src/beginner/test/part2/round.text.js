@@ -1,5 +1,5 @@
 import { expect, test } from "vitest";
-import { monsterRound } from "../../beginner.js";
+import { monsterRound } from "../../2_operators.js";
 
 test("monsterRound", () => {
     expect(monsterRound(2.81)).toBe(3);

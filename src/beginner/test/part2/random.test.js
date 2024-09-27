@@ -1,5 +1,5 @@
 import { expect, test } from "vitest";
-import { vampireRandom } from "../../beginner.js";
+import { vampireRandom } from "../../2_operators.js";
 
 test("vampireRandom", () => {
     expect(vampireRandom(0)).toBe(0);

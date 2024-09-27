@@ -1,5 +1,5 @@
 import { expect, test } from "vitest";
-import { creaturesSorted } from "../../beginner.js";
+import { creaturesSorted } from "../../5_arrays.js";
 
 test("creaturesSorted", () => {
   let creatures = ["ghost", "vampire", "zombie", "poltergeist", "witch", "mummy", "banshee"];

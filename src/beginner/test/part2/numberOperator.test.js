@@ -6,7 +6,7 @@ import {
     rusticRemainder,
     evilExponent,
     potionOfPrecedence
-} from "../../beginner.js";
+} from "../../2_operators.js";
 
 describe("creepyAddition", () => {
     test("adding numbers", () => {
