@@ -6,20 +6,18 @@
   "main": "index.js",
   "scripts": {
     "test": "vitest",
-    "test-beginner": "vitest src/beginner",
-    "test-beginner-typeof": "vitest src/beginner/typeOf.test.js",
-    "test-beginner-numbermethods": "vitest src/beginner/numberMethods.test.js",
-    "test-beginnier-nan": "vitest src/beginner/NaN.test.js",
-    "test-beginnier-multiplication": "vitest src/beginner/multiplication.test.js",
-    "test-beginnier-division": "vitest src/beginner/division.test.js",
-    "test-beginnier-remainder": "vitest src/beginner/remainder.test.js",
-    "test-beginnier-exponent": "vitest src/beginner/exponent.test.js",
-    "test-beginnier-precedence": "vitest src/beginner/precedence.test.js",
-    "test-beginnier-addition1": "vitest src/beginner/addition1.test.js",
-    "test-beginnier-addition2": "vitest src/beginner/addition2.test.js",
-    "test-beginnier-and": "vitest src/beginner/and.test.js",
-    "test-beginnier-or": "vitest src/beginner/or.test.js",
-    "test-intermediate": "vitest src/intermediate"
+    "test-beginner": "vitest src/beginner/test",
+    "test-beginner-1": "vitest src/beginner/test/part1",
+    "test-beginner-2": "vitest src/beginner/test/part2",
+    "test-beginner-3": "vitest src/beginner/test/part3",
+    "test-beginner-4": "vitest src/beginner/test/part4",
+    "test-beginner-5": "vitest src/beginner/test/part5",
+
+    "test-intermediate": "vitest src/intermediate/test",
+    "test-spookytown": "vitest src/intermediate/test/spookyTown.test.js",
+    "test-bloodbank": "vitest src/intermediate/test/bloodBank.test.js",
+
+    "test-advanced": "vitest src/advanced"
   },
   "author": "",
   "license": "ISC",
