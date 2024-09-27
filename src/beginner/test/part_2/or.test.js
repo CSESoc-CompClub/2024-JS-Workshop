@@ -1,5 +1,5 @@
 import { expect, test, describe } from "vitest";
-import { ghostlyOr } from "./beginner.js";
+import { ghostlyOr } from "../../beginner.js";
 
 describe("testing logical or", () => {
     test("both false", () => {

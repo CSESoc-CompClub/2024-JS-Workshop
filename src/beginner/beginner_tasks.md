@@ -41,10 +41,27 @@ ghostlyOr()
 
 
 ## Part 3: Control Structures
+### If-else statements
 `comparisons.test.js`
 candyCost()
 
 `creatureAlarm.test.js`
 creatureAlarm()
 
-## Part 4: Arrays
+### Loops
+
+## Part 4: Array methods
+`numberOfCreatures.test.js`
+numberOfCreatures()
+
+`addCreatures.test.js`
+addCreature()
+
+`removeCreature.test.js`
+removeCreature()
+
+`creaturesSorted.test.js`
+creaturesSorted()
+
+`foundCreature.test.js`
+foundCreature()

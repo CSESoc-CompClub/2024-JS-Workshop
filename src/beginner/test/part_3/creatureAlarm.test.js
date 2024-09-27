@@ -1,5 +1,5 @@
 import { expect, test } from "vitest";
-import { creatureAlarm } from "./beginner.js";
+import { creatureAlarm } from "../../beginner.js";
 
 test("creatureAlarm", () => {
   expect(creatureAlarm('ghost')).toBe('Scary!');

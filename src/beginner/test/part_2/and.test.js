@@ -1,5 +1,5 @@
 import { expect, test, describe } from "vitest";
-import { spellbindingAnd } from "./beginner.js";
+import { spellbindingAnd } from "../../beginner.js";
 
 describe("testing logical and", () => {
     test("both false", () => {
