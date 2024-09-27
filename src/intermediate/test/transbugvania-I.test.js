@@ -1,6 +1,6 @@
 
 import { vi, describe, beforeEach, test, toHaveBeenLastCalledWith, expect } from "vitest";
-import { greetingInstructions } from './transbugvania-I.js'; 
+import { greetingInstructions } from '../transbugvania-I.js'; 
 
 
 const logSpy  = vi.spyOn(console, 'log');

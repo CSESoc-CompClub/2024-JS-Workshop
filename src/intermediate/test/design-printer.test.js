@@ -1,5 +1,5 @@
 import { vi, describe, beforeEach, test, toHaveBeenCalledWith, expect } from "vitest";
-import { design_printer } from "./design-printer.js";
+import { design_printer } from "../design-printer.js";
 
 
 const logSpy  = vi.spyOn(console, 'log');

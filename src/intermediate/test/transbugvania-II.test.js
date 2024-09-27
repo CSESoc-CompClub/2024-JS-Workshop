@@ -1,6 +1,6 @@
 
 import { vi, describe, beforeEach, test, toHaveBetweenCalledWith, expect } from "vitest";
-import { checkIn } from './transbugvania-I.js'; 
+import { checkIn } from '../transbugvania-I.js'; 
 
 
 const logSpy  = vi.spyOn(console, 'log');

@@ -1,6 +1,6 @@
 
 import { describe, test,  expect, toEqual } from "vitest";
-import { shoppingList } from './halloween-party.js'; 
+import { shoppingList } from '../halloween-party.js'; 
 
 
 describe("Halloween party test...", () => {
