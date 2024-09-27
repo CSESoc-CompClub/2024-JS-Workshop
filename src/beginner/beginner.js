@@ -35,7 +35,7 @@ export function hauntedPhrase() {
 
 
 // ****************************************************************************
-// PART 2: [OPERATORS] 
+// PART 2: [ NUMBERS AND OPERATORS ] 
 // ****************************************************************************
 
 // Return the sum of x and y
@@ -71,17 +71,50 @@ export function potionOfPrecedence() {
   return x + y * z;
 }
 
+// return x AND y
 export function spellbindingAnd(x, y) {
   return x && y;
 }
 
+// return x OR y
 export function ghostlyOr(x, y) {
   return x || y;
 }
 
+// Round something to the nearest whole number
+export function monsterRound(monsterCount) {
+  return Math.round(monsterCount);
+}
+
+// Return a random number between 0 and max
+export function vampireRandom(maxVampires) {
+  if (maxVampires <= 0) return 0;
+  return Math.floor(Math.random() * (maxVampires + 1));
+}
+
 
 // ****************************************************************************
-// PART 3: [ CONTROL STRUCTURES ] 
+// PART 3: [ STRINGS ] 
+// ****************************************************************************
+
+// Convert to uppercase
+export function spookyScream(message) {
+  return message.toUpperCase();
+}
+
+// Find if a string contains another string
+export function witchHunt(haystack, needle) {
+  return haystack.includes(needle);
+}
+
+// Return a spooky message with a variable
+export function spookyMessage(creature) {
+  return `Run! There's a ${creature} near you!`;
+}
+
+
+// ****************************************************************************
+// PART 4: [ CONTROL STRUCTURES ] 
 // ****************************************************************************
 
 // Function: Which candy has the cheapest price? Return the cost of that candy.
@@ -93,7 +126,6 @@ export function candyCost(spookyCandy, ghostlyCandy) {
     return spookyCandy;
   }
 }
-
 
 // Tom investigated a town on the eve of Halloween and found it filled with spooky creatures!
 // Help him create an app to record his findings!
@@ -120,7 +152,7 @@ export function creatureAlarm(creature) {
 }
 
 // ****************************************************************************
-// PART 4: [ ARRAYS ] 
+// PART 5: [ ARRAYS ] 
 // ****************************************************************************
 
 // Tom made a list of all the creatures he saw.

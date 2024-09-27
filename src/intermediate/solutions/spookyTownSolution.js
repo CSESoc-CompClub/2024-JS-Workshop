@@ -1,4 +1,3 @@
-
 // Examples: 
 // let bestiary = [ 
 //     { 

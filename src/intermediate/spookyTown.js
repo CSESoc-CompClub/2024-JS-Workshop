@@ -1,34 +1,47 @@
-// ======= SPOOKY TOWN QUESTIONS ======
+/*
+#************************************#
+#   COMPCLUB Spring Workshops 2024   #
+#    Introduction to Javascript      #
+#************************************#
 
-// Examples: 
-// let bestiary = [ 
-//     { 
-//         name: "ghost",
-//         spookiness: 2,
-//         sightings: 3
-//     },
-//     {
-//         name: "vampire",
-//         spookiness: 5,
-//         sightings: 10
-//     },
-//     {
-//         name: "zombie",
-//         spookiness: 0,
-//         sightings: 0
-//     },
-//     {
-//         name: "poltergeist",
-//         spookiness: 7,
-//         sightings: 10
-//     }
-// ]
+By: <YOUR-NAME-HERE>
+Written On: <DATE-HERE>
 
-// let exampleCreature = {
-//     name: "mummy",
-//     spookiness: 1,
-//     sightings: 3
-// }
+*/
+// ****************************************************************************
+// INTERMEDIATE 1: SPOOKY TOWN (objects)
+// ****************************************************************************
+/*
+Examples: 
+let bestiary = [ 
+    { 
+        name: "ghost",
+        spookiness: 2,
+        sightings: 3
+    },
+    {
+        name: "vampire",
+        spookiness: 5,
+        sightings: 10
+    },
+    {
+        name: "zombie",
+        spookiness: 0,
+        sightings: 0
+    },
+    {
+        name: "poltergeist",
+        spookiness: 7,
+        sightings: 10
+    }
+]
+
+let exampleCreature = {
+    name: "mummy",
+    spookiness: 1,
+    sightings: 3
+}
+*/
 
 // Function: add a creature to bestiary, given the creature details.
 // Return the new bestiary

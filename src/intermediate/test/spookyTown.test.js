@@ -1,5 +1,5 @@
 import { expect, test, describe } from "vitest";
-import { addCreature, creatureRecorded, townSpookiness, notFound } from "./creepyTown.js";
+import { addCreature, creatureRecorded, townSpookiness, notFound } from "../spookyTown.js";
 
 describe("creepyTown", () => {
     let bestiary = [ 

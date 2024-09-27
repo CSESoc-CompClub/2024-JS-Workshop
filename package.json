@@ -11,7 +11,12 @@
     "test-beginner-2": "vitest src/beginner/test/part2",
     "test-beginner-3": "vitest src/beginner/test/part3",
     "test-beginner-4": "vitest src/beginner/test/part4",
+    "test-beginner-5": "vitest src/beginner/test/part5",
+
     "test-intermediate": "vitest src/intermediate/test",
+    "test-spookytown": "vitest src/intermediate/test/spookyTown.test.js",
+    "test-bloodbank": "vitest src/intermediate/test/bloodBank.test.js",
+
     "test-advanced": "vitest src/advanced"
   },
   "author": "",
